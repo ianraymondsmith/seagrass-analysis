@@ -1,5 +1,19 @@
-# seagrass-analysis
-A Python-based-pipeline for spatiotemporal vegetation and turbidity analysis of coastal seagrass in the Upper Keys, FL.
-
+# Seagrass Vegetation and Turbidity Analysis
 ---
-This pipelineo covers the spatiotemporal analysis project of coastal seagrass in Upper Keys Florida, working with Sentinel-2 satellite imagery and water quality data in Python. Looping over large raster data files to convert file types, save to .nc, process by clipping and masking, and calculating spectral indices with modules such as Xarray and Rasterio. Process water quality data with Pandas, NumPy, Matplotlib, and other python functions and modules to perform a comparison analysis of spatiotemporal data and environmental data. Ultimately, creating a reproducible workflow for integrating satellite imagery with environmental data to analyze coastal ecosystem health
+Workflow for the Python-based-pipeline analysis of Sentinel-2 and turbidity data with correlation to coastal seagrass dynamics in Upper Keys, FL.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssullivan9661/seagrass-analysis/main)
+
+## Authors
+---
+[Sara Sullivan](https://github.com/ssullivan9661), [Daniel Smith](https://github.com/ianraymondsmith), and [Omar Alazmi](https://github.com/engomarm03-commits)
+
+# Features
+---
+- Python code for automated conversion, cloud-masking, and clipping of satiellite raster data files using libraries such as Xarray, Rasterio and Rioxarray.
+- Automated water quality data processing with GeoPandas, NumPy, Matplotlib, and clipping to the study area using Rasterio, and Rioxarray.
+- Calculation of spectral and turbidity indexes using extracted band information of sentinel-2 scenes.
+- Spatial mapping of NDVI, NDWI, EVI and Turbidity overlayed with water quality parameters.
+- Time series analysis and correlation heat mapping of Sentinel-2 data and water quality data.
+- Automated export and save of results.
+  
+  Ultimately, the goal is a reproducible workflow for integrating satellite imagery with environmental data to analyze coastal ecosystem health.
