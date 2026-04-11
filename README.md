@@ -25,7 +25,7 @@ Python code for automated processing of Sentinel-2 raster data, includes the dow
 
 Automated water quality data processing with GeoPandas, NumPy, Matplotlib, and clipping to the study area using Rasterio, and Rioxarray.
 
-# Combined Analysis Features
+### Combined Analysis Features
 
 The main analysis workflow integrates and joins the spectral vegetation indices and water quality data, to spatially map the processed data together for visualization of patterns and relationships, analysis of seagrass dynamics with varying water quality overtime to discover any trend relationships, and correlataion heat mapping of NDTI and water turbidity data. With automated save and export and notable figures in the `figures` folder. 
 - `04_spatial_mapping` - Spatial mapping of spectral indices with water quality parameters to detect patterns and relationships.
