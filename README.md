@@ -9,6 +9,18 @@
 
 Workflow for the Python-based-pipeline analysis of Sentinel-2 and turbidity data with correlation to coastal seagrass dynamics in Upper Keys, FL. The goal is a reproducible workflow for integrating satellite imagery with environmental data to analyze coastal ecosystem health.
 
+### Spectral Indices
+
+| Name | Abbreviation | 
+| --- | --- | 
+| NDVI | Normalized Difference Vegetation Index | 
+| EVI | Enhanced Vegetation Index | 
+| NDWI | Normalized Difference Water Index | 
+| NDAVI | Normalized Difference Aquatic Index |
+| SSI-II | Submerged Seagrass Index |
+| NDTI | Normalized Difference Turbidity Index |
+| DII | Depth Invariant Index |
+
 ## Structure
 
 This cookbook is initially divided into two sections Sentinel-2 imagery and water quality data processing for notebooks 00-03, and then joined for the main analysis in the final 04-06 notebooks. 
