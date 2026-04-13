@@ -5,13 +5,17 @@ dependencies:
   - python=3.10
   - notebook
   - jupyterlab
+  - ipykernel
   - pandas
   - matplotlib
   - numpy
+  - scipy        # Added for statistical modeling
+  - scikit-learn # Added for research modeling
   - xarray
   - rioxarray
   - rasterio
   - geopandas
+  - cartopy      # Added for spatial visualization/mapping
   - seaborn
   - pip
   - pip:
