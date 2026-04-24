@@ -45,8 +45,7 @@ The main analysis workflow integrates and joins the spectral vegetation indices 
 
 - `05_water_quality` - Main water quality Python based statistical analysis includes both spatial and seasonal distributions of water quality parameters using statistical Python based modules and `matplotlib`. Methods of plotting include correlation matrices, seasonal boxplots, and spatial mean maps.
 - `06_time_series_analysis` - Time series analysis and correlation heat mapping of Sentinel-2 data and water quality data ussing the Mann-Kendall test for long term trends of seagrass trends. Incorporates a dual time series and cross correlation heatmap of both water quality data and spectral indices.
-- `07_spatial_mapping` - Spatial mapping of spectral indices with water quality parameters to detect patterns and relationships through a predefined basemap and user function using modules `Rasterio` and `Cartopy`. An animation analysis of seagrass dynamics with NDAVI overtime to discover any trend relationships, contained in notebook `07`.  and correlataion heat mapping of NDTI and water turbidity data across Upper Keys, Fl. With automated save and export and notable figures in the `figures` folder. 
-
+- `07_spatial_analysis` - Statistical spatial analysis of spectral indices includes, model validating correlataion heat map of spectral indices and an annuall seasonal comparison of NDVI vs. NDAVI vs. SSSII. Followed by the visual spatial analysis of spectral indices with turbidity to detect patterns and confirm relationships, through a 9-map-subplot and base-map function using modules `Rasterio` and  `Cartopy`. Followed by an animation analysis of seagrass dynamics with NDAVI overtime to discover any trend relationships. 
 
 # Binder Setup
 Follow this workflow to run binder locally:
